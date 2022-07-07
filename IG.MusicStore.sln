@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{82BC5ED2-09E8-465B-A37D-C8B97BF0DE96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{ECE13A7E-D89F-4113-9165-A30F1F3BC629}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{6F53B59F-3060-4865-AA6D-602E38545F86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{7649651B-0780-4E80-8F4A-6E2BFC7C0E8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identidade", "Identidade", "{C04BBA33-FA9D-42F5-ADB6-B5BFE5EC42BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IG.MusicStore.Identidade.API", "src\services\IG.MusicStore.Identidade.API\IG.MusicStore.Identidade.API.csproj", "{72728332-ED28-4AC6-A611-97C36816DE84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72728332-ED28-4AC6-A611-97C36816DE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72728332-ED28-4AC6-A611-97C36816DE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72728332-ED28-4AC6-A611-97C36816DE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72728332-ED28-4AC6-A611-97C36816DE84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECE13A7E-D89F-4113-9165-A30F1F3BC629} = {82BC5ED2-09E8-465B-A37D-C8B97BF0DE96}
+		{6F53B59F-3060-4865-AA6D-602E38545F86} = {82BC5ED2-09E8-465B-A37D-C8B97BF0DE96}
+		{7649651B-0780-4E80-8F4A-6E2BFC7C0E8C} = {82BC5ED2-09E8-465B-A37D-C8B97BF0DE96}
+		{C04BBA33-FA9D-42F5-ADB6-B5BFE5EC42BE} = {6F53B59F-3060-4865-AA6D-602E38545F86}
+		{72728332-ED28-4AC6-A611-97C36816DE84} = {C04BBA33-FA9D-42F5-ADB6-B5BFE5EC42BE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {004ABE21-1C82-46F8-B974-E670FA544411}
+	EndGlobalSection
+EndGlobal
